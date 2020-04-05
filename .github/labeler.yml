@@ -1,0 +1,8 @@
+name: "Commit Labeler" # Setup the name of workflow
+on: [push] # Only label commits
+
+#shared: shared/* # Shared tag
+
+src: src/* # Src tag
+
+#bash: scripts/* # Bash tag
